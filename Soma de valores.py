@@ -8,7 +8,8 @@ valor = float(input("Digite um valor para somar:"))
 while (valor > 0.0):
     soma = soma + valor
     qtd = qtd + 1
-    print(soma)
+    print("Adicione um valor, caso queira encerrar digite 0.")
+    print("Valor total: %.1i" %soma)
     valor = float(input("Digite um valor para somar:"))
     
 

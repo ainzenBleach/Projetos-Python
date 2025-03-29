@@ -1,4 +1,4 @@
-#Coleta de dados e exposição deles
+#Coleta de dados e expoem eles.
 nome = str(input("Digite seu nome:"))
 idade = int(input("Digte sua idade:"))
 cidade = str(input("Digite sua cidade natal:"))
