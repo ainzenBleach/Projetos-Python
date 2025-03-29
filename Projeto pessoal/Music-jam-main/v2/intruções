@@ -1,0 +1,19 @@
+As secction são as áreas que tem na pagina, dentro das section temos as divs que são os
+campos dentro da área, exemplo: área sobre produtos(section), e as imagens do produto (div).
+
+Position - A tag fixa o header em alguma posição, utilizando o fixed o conteudo do header fica no 
+topo da pagina, colocando a tag width 100% + o background com uma cor, podemos deixar ela inteira 
+na parte de cima.
+- O uso da tag *absolute* deixa o elemento livre na pagina não sendo afetado e não afetando outros 
+elementos, mais dificil de usar e mais livre para uso.
+
+psudos classes - na estilização das tags no css apos a tag ex: .principal:hover, atribuimos ações passivas ao elemento como:
+- hover: quando o usuário passa com o mouse por cima do elemento.
+- active: Define um estilo enquanto o botão está pressionado.
+- focus: Define o estilo quando um campo de formulário está selecionado.
+- checked: Usado para inputs de checkbox ou radio.
+- disabled: Aplica estilos a botões ou campos de formulário desativados.
+
+Margem melhor elemento unico e padding conjunto de elementos em uma div.
+
+
