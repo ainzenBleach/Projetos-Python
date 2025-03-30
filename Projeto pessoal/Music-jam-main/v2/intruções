@@ -16,4 +16,40 @@ psudos classes - na estilização das tags no css apos a tag ex: .principal:hove
 
 Margem melhor elemento unico e padding conjunto de elementos em uma div.
 
+Flex-grow é uma propriedade do flexbox que controla quanto espaço extra um item pode ocupar dentro de um contêiner flexível. Se um contêiner display: flex; tiver espaço sobrando, os itens com flex-grow irão crescer proporcionalmente ao valor definido.
+- Valor pode ser:
+- 0 (padrão) → O elemento não cresce, mantém o tamanho original.
+- 1 → O elemento cresce e ocupa o espaço extra disponível.
+- 2, 3, ... → O elemento cresce mais do que os outros, de forma proporcional.
 
+Box-sizing define como o tamanho de um eemento é calculado no CSS. tendo os valores:
+-Content-box (padrão) → O tamanho do elemento inclui apenas o conteúdo, e o padding + border são adicionados ao tamanho total.
+-Border-box → O tamanho do elemento inclui o conteúdo, padding e borda, sem aumentar o tamanho total.
+
+O transition no CSS é usado para suavizar mudanças nos estilos de um elemento ao longo do tempo, em vez de aplicar a mudança instantaneamente, para somar outras propriedades os valores separamos com ",". 
+Sintaxe: transition: propriedade duração tipo_de_transição atraso;
+
+-Propriedade: Qual propriedade será animada (ex: opacity, color, transform).
+-Duração: Quanto tempo levará a transição (ex: 0.5s, 1s).
+-Tipo de transição (timing function): Controla a aceleração da animação. Exemplos:
+
+    ease (começa devagar, acelera e desacelera no final – padrão).
+
+    linear (mesma velocidade o tempo todo).
+
+    ease-in (começa devagar e acelera).
+
+    ease-out (começa rápido e desacelera).
+
+    ease-in-out (começa devagar, acelera no meio e desacelera no final).
+
+-Atraso (opcional): Tempo antes da animação começar (ex: 0.2s).
+
+O transform a propriedade transform no CSS permite mover, girar, dimensionar, inclinar e modificar um elemento de várias outras formas sem alterar o fluxo normal da página ou o layout. Ou seja, o transform não afeta o layout do restante da página, ele só altera a aparência do elemento que está sendo modificado.
+As funções mais comuns usadas com transform são:
+
+-translate(x, y): Move um elemento pela página.
+-scale(x, y): Altera o tamanho de um elemento.
+-rotate(deg): Gira o elemento em torno de seu ponto de origem.
+-skew(x, y): Inclina um elemento.
+-matrix(): Combina várias transformações.
